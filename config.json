@@ -1,0 +1,92 @@
+{
+    "accounts": {
+        "1": {
+            "enabled": true,
+            "username": "JEFF01",
+            "password": "112233",
+            "domain": "52.64.207.38",
+            "port": 5060,
+            "transport": "UDP",
+            "proxy": "",
+            "display_name": "Account 1",
+            "auto_register": true,
+            "audio_input_device_id": -1,
+            "audio_output_device_id": -1,
+            "emulator_port": 5554,
+            "emulator_avd": "SipDialer_Account_1",
+            "whatsapp_tap_x": 230,
+            "whatsapp_tap_y": 130,
+            "whatsapp_tap_delay_ms": 1200,
+            "whatsapp_step1_x": 230,
+            "whatsapp_step1_y": 130,
+            "whatsapp_step_delay_ms": 1500,
+            "whatsapp_step2_x": 130,
+            "whatsapp_step2_y": 800,
+            "whatsapp_step3_x": 590,
+            "whatsapp_step3_y": 980,
+            "whatsapp_step3_delay_ms": 1500
+        },
+        "2": {
+            "enabled": true,
+            "username": "JEFF02",
+            "password": "112233",
+            "domain": "52.64.207.38",
+            "port": 5060,
+            "transport": "UDP",
+            "proxy": "",
+            "display_name": "Account 2",
+            "auto_register": true,
+            "audio_input_device_id": -1,
+            "audio_output_device_id": -1,
+            "emulator_port": 5556,
+            "emulator_avd": "SipDialer_Account_2",
+            "whatsapp_tap_x": 230,
+            "whatsapp_tap_y": 130,
+            "whatsapp_tap_delay_ms": 1200,
+            "whatsapp_step1_x": 230,
+            "whatsapp_step1_y": 130,
+            "whatsapp_step_delay_ms": 800,
+            "whatsapp_step2_x": 130,
+            "whatsapp_step2_y": 800,
+            "whatsapp_step3_x": 590,
+            "whatsapp_step3_y": 980,
+            "whatsapp_step3_delay_ms": 1500
+        }
+    },
+    "audio": {
+        "input_device": -1,
+        "output_device": -1,
+        "echo_cancellation": true,
+        "noise_suppression": true,
+        "auto_gain": true,
+        "input_volume": 80,
+        "output_volume": 80
+    },
+    "general": {
+        "auto_answer": false,
+        "auto_answer_delay": 3,
+        "call_recording": false,
+        "recording_path": "recordings",
+        "log_level": "INFO",
+        "startup_minimize": false,
+        "system_tray": true
+    },
+    "codecs": {
+        "priority": [
+            "PCMU",
+            "PCMA",
+            "G722",
+            "G729",
+            "GSM",
+            "SPEEX"
+        ],
+        "bandwidth": "normal"
+    },
+    "gui": {
+        "theme": "default",
+        "window_size": "1200x800",
+        "always_on_top": false,
+        "show_call_duration": true,
+        "show_account_status": true
+    }
+}
